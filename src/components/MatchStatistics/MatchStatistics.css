@@ -1,0 +1,7 @@
+.match-statistics-container{
+    display: flex;
+}
+
+.match-statistics-item{
+  width: 20%;
+}
