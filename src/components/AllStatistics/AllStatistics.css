@@ -1,0 +1,8 @@
+.all-statistics-container{
+    display: flex;
+}
+
+.all-statistics-item{
+  width: 16.7%;
+  max-height: 500px;
+}
