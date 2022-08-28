@@ -1,8 +1,8 @@
 import React from "react";
-import { NumberCard } from "../NumberCard/NumberCard";
-import { NumberCardProps } from "../NumberCard/NumberCard.props";
-import { VersusStatisticsCard } from "../VersusStatisticsCard/VersusStatisticsCard";
-import { VersusStatisticsCardProps } from "../VersusStatisticsCard/VersusStatisticsCard.props";
+import { NumberCard } from "../../components/Cards/NumberCard/NumberCard";
+import { NumberCardProps } from "../../components/Cards/NumberCard/NumberCard.props";
+import { VersusStatisticsCard } from "../../components/Cards/VersusStatisticsCard/VersusStatisticsCard";
+import { VersusStatisticsCardProps } from "../../components/Cards/VersusStatisticsCard/VersusStatisticsCard.props";
 import "./MatchStatistics.css";
 
 

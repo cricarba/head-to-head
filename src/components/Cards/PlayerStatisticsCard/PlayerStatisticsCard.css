@@ -1,0 +1,13 @@
+.player-statistics-card-container {
+    text-align: center;
+
+}
+
+.player-statistics-card {
+    display: flex;
+
+}
+
+.player {
+    height: 140px;
+}

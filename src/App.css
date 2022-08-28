@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+html {
+  background-color: #E4EBF1;
+  font-family: Arial, Helvetica, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.versus-container { 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.versus { 
+
+ display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.match-statistics {  }
+
+.all-statistics { }
+
+
+.card {
+  margin: 1.1%;
+  padding: 2%;
+  background-color: #EFF2F9;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 10px 10px 10px 0px rgba(22, 27, 29, 0.23);
+}
+
+.principal
+{
+  color: #E90052;
+}
+
+.win
+{
+  color: #008D00;
+}
+
+.lose{
+  color: #E81B0C
 }

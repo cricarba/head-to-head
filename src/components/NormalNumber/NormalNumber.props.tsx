@@ -1,3 +1,4 @@
 export type NormalNumberProps = {
-    number: Number
+    number: Number,
+    color: string
 }

@@ -1,0 +1,8 @@
+.match-statistics-card
+{
+        text-align: center;
+}
+.team{
+    display: flex;
+    margin: 2%;
+}

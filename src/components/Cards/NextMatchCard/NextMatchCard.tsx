@@ -1,15 +1,15 @@
 import React from "react";
-import { NormalShield } from "../NormalShield/NormalShield";
+import { NormalShield } from "../../NormalShield/NormalShield";
 import { NextMatchCardProps } from "./NextMatchCard.props";
 import "./NextMatchCard.css";
-import { Subtitle } from "../Subtitle/Subtitle";
+import { Subtitle } from "../../Subtitle/Subtitle";
  
 
 export const NextMatchCard = ({  home, away , measures, date}: NextMatchCardProps): JSX.Element => {
      
     return (
         <React.Fragment>
-            <div className={`match-statistics-card ${measures}`}>
+            <div className={`card match-statistics-card ${measures}`}>
                 
                 <div className="team">
                     <NormalShield source={home}></NormalShield>
@@ -21,6 +21,7 @@ export const NextMatchCard = ({  home, away , measures, date}: NextMatchCardProp
                     <Subtitle text={date.toDateString()} ></Subtitle>
                 </div>
             </div>
+            <br />
         </React.Fragment>
     )
 }
