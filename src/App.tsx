@@ -8,7 +8,7 @@ export const App = (): JSX.Element => {
   return (
     <React.Fragment>
       <div className="container">
-        <div className="versus">
+        <div className="versus-container">
           <Versus></Versus>
         </div>
         <div className="match-statistics ">

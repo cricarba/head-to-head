@@ -1,0 +1,10 @@
+.versus-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.versus-container>.versus-item {
+    -webkit-flex: auto;
+    flex: auto;
+    align-items: center;
+}

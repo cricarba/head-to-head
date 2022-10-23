@@ -29,7 +29,6 @@ export const Carrousel = ({images}: CarrouselProps): JSX.Element => {
            <img src={`${images[currently]}`} className="currently"></img>
            <br></br>
            <img src={`${images[next]}`} onClick={moveToNext}></img>
-           
         </React.Fragment>
     )
 }

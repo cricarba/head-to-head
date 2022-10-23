@@ -1,43 +1,29 @@
 html {
-  background-color: #E4EBF1;
-  font-family: Arial, Helvetica, Helvetica, sans-serif;
-  font-weight: 400;
+    background-color: #E4EBF1;
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
+.match-statistics {}
 
-.versus-container { 
-
-  display: flex;
-}
-
-.versus { 
-
- display: flex;
-}
-
-.match-statistics {  }
-
-.all-statistics { }
-
+.all-statistics {}
 
 .card {
-  margin: 1.1%;
-  padding: 2%;
-  background-color: #EFF2F9;
-  border-radius: 50px 50px 50px 50px;
-  box-shadow: 10px 10px 10px 0px rgba(22, 27, 29, 0.23);
+    margin: 1.1%;
+    padding: 2%;
+    background-color: #EFF2F9;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 10px 0px rgba(22, 27, 29, 0.23);
 }
 
-.principal
-{
-  color: #E90052;
+.principal {
+    color: #E90052;
 }
 
-.win
-{
-  color: #008D00;
+.win {
+    color: #008D00;
 }
 
-.lose{
-  color: #E81B0C
+.lose {
+    color: #E81B0C
 }
